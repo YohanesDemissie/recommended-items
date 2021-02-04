@@ -1,0 +1,51 @@
+.recommended-items-wrapper {
+    width: 50%;
+    margin: auto;
+    background-image: linear-gradient(blue, white);
+    padding: 10px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.recommended-items {
+    background-color: white;
+    padding: 10px;
+
+
+    display: inline-grid;
+    justify-content: center;
+  grid-template-columns: repeat(2, [col-start] 1fr);
+  grid-gap: 10px;
+}
+
+.recommended-item {
+    display: block;
+    background-color: grey;
+    border: white 5px;
+    padding: 10px;
+}
+
+img {
+    /* width: 50px; */
+    padding: 10px;
+}
+
+
+
+label {
+    display: block;
+    /* text-align: center; */
+    padding: 3px;
+    padding-left: 10px;
+} 
+
+/* .recommended-item {
+    background-color: grey;
+    margin: 10px;
+    display: block;
+} */
+
+
+
+/* CENTERING OBJECTS */
