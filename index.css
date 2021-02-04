@@ -1,7 +1,18 @@
+.user-name {
+    display: inline;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.recommended-for-you {
+    margin-top: 100px;
+    text-align: center;
+}
+
 .recommended-items-wrapper {
-    width: 50%;
+    width: 42%;
     margin: auto;
-    background-image: linear-gradient(blue, white);
+    background-image: linear-gradient(rgb(0, 195, 255), white);
     padding: 10px;
     background-repeat: no-repeat;
     display: flex;
@@ -16,36 +27,28 @@
     display: inline-grid;
     justify-content: center;
   grid-template-columns: repeat(2, [col-start] 1fr);
+  /* grid-template-rows: repeat(2, [row-start] 1fr); */
   grid-gap: 10px;
 }
 
 .recommended-item {
     display: block;
-    background-color: grey;
+    background-color: rgba(192, 189, 189, 0.5);
     border: white 5px;
     padding: 10px;
+    padding-bottom: 0px;
 }
 
 img {
-    /* width: 50px; */
     padding: 10px;
+    padding-bottom: 0px;
 }
-
-
 
 label {
     display: block;
-    /* text-align: center; */
     padding: 3px;
     padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 5px;
 } 
 
-/* .recommended-item {
-    background-color: grey;
-    margin: 10px;
-    display: block;
-} */
-
-
-
-/* CENTERING OBJECTS */
